@@ -7,9 +7,8 @@ function Dashboard() {
     <Box m={"20px"}>
       <Box
         display={"flex"}
-        flexDirection={"row"}
-        // justifyContent={"space-between"}
-        // alignItems={"center"}
+        justifyContent={"space-between"}
+        alignItems={"center"}
       >
         <Header title={"DASHBOARD"} subtitle={"Welcome back"}></Header>
       </Box>

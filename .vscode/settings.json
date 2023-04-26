@@ -1,5 +1,5 @@
 {
-  "cSpell.words": ["Topbar"],
+  "cSpell.words": ["Scroller", "Topbar"],
   "eslint.enable": true,
   "files.autoSave": "afterDelay",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
