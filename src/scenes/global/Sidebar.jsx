@@ -13,6 +13,7 @@ import HelpOutlinedIcon from "@mui/icons-material/HelpOutlined";
 import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
 import ContactsOutlinedIcon from "@mui/icons-material/ContactsOutlined";
 import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutlined";
+import LineChartOutlineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 
@@ -198,6 +199,13 @@ function Sidebar() {
               title="Pie Chart"
               to="/pie"
               icon={<PieChartOutlineOutlinedIcon />}
+              {...{ selected, setSelected }}
+            />
+
+            <Item
+              title="Line Chart"
+              to="/line"
+              icon={<LineChartOutlineOutlinedIcon />}
               {...{ selected, setSelected }}
             />
 
